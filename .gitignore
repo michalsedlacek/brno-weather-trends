@@ -1,3 +1,6 @@
+# temporary notebooks for ad-hoc analyzes
+*.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
