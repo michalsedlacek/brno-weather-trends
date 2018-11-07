@@ -28,6 +28,7 @@ df_by_year_month_mean = df.groupby(['year','month']).mean().reset_index()
 
 # initiate dashboard app
 app = dash.Dash()
+server = app.server
 app.title = 'Brno Weather Trend Analyses'
 # define chart
 data = [go.Scatter(
